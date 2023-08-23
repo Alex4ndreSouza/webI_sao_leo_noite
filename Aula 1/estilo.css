@@ -1,0 +1,24 @@
+/* .... Outras regras ... */
+h2{
+    color: yellow;
+}
+
+p{
+    color: purple;
+}
+
+#introducao{
+    color: salmon;
+}
+
+h2#introducao{
+    color: pink;
+}
+
+.especial{
+    color: orange;
+}
+
+p+p{
+    color: olive;
+}

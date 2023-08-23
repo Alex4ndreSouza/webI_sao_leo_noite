@@ -15,11 +15,21 @@
       content="Nessa página você irá aprender a criar sites usando html, css e js. Criando assim seus próprio sites profissionais"
     />
     <meta name="author" content="Anderson Choren" />
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+      h1{
+        /* color: blue !important; */
+        color: blue;
+      }
+      h2{
+        color: green;
+      }
+    </style>
   </head>
   <body>
-    <h1>Introdução ao HTML</h1>
-    <h2>O que é HTML?</h2>
-    <p>
+    <h1 style="color:red;">Introdução ao HTML</h1>
+    <h2 id="introducao">O que é HTML?</h2>
+    <p id="introducao" class="especial">
       HTML, sigla para <b>HyperText Markup Language (Linguagem de Marcação de Hipertexto)</b>, é a linguagem padrão utilizada para criar e estruturar
       páginas da web. Ele é a base fundamental para a criação de conteúdo na
       internet e é interpretado pelos navegadores para renderizar a aparência e
@@ -30,7 +40,7 @@
     exibido ou tratado. Cada elemento HTML tem um propósito específico e define
     a estrutura semântica do conteúdo da página, como títulos, parágrafos,
     listas, <i>links</i>, imagens e muito mais.</p>
-    <p>Aqui está um exemplo simples de código
+    <p class="especial">Aqui está um exemplo simples de código
     HTML que cria um parágrafo:</p>
   </body>
 </html>
