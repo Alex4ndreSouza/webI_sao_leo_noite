@@ -1,0 +1,24 @@
+@font-face {
+    src: url('../fonts/Saiyan-Sans.ttf');
+    font-family: 'Saiyan';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body > header:nth-child(1){
+    background-color: #E55E2E;
+}
+
+body > header:nth-child(1)>div>img{
+    height: 1.25rem;
+}
+
+body > header:nth-child(1)>div>span{
+    font-family: 'Saiyan', sans-serif;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
