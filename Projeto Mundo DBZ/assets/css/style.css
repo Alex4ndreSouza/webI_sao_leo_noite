@@ -1,24 +1,54 @@
 @font-face {
-    src: url('../fonts/Saiyan-Sans.ttf');
-    font-family: 'Saiyan';
+  src: url("../fonts/Saiyan-Sans.ttf");
+  font-family: "Saiyan";
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
 
-body > header:nth-child(1){
-    background-color: #E55E2E;
+body > header:nth-child(1) {
+  background-color: #e55e2e;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
 }
 
-body > header:nth-child(1)>div>img{
-    height: 1.25rem;
+body > header:nth-child(1) > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-body > header:nth-child(1)>div>span{
-    font-family: 'Saiyan', sans-serif;
-    font-size: 1.25rem;
-    color: #FFFFFF;
+body > header:nth-child(1) > div > img {
+  width: 1.5rem;
+  margin-right: 1rem;
+}
+
+body > header:nth-child(1) > div > span {
+  font-family: "Saiyan", sans-serif;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+body > nav {
+  background-color: #fda402;
+  padding: 0.5rem;
+  color: #ffffff;
+}
+
+a:link,
+a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+body > nav > span:nth-child(3) {
+    text-decoration: underline;
 }
