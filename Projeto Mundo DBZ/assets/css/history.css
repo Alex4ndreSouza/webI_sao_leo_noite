@@ -1,0 +1,11 @@
+@import url("style.css");
+
+/* Regras especificas da tela History */
+body > article {
+  background-image: url("../imgs/historia.jpg");
+}
+
+body > main > p {
+  text-indent: 1rem;
+  margin-bottom: 0.5rem;
+}
