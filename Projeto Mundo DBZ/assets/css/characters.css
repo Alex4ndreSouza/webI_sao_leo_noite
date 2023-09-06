@@ -1,0 +1,19 @@
+@import url("style.css");
+
+/* Estilo específico da página vai aqui */
+body > article{
+    background-image: url("../imgs/galeria.jpg");
+}
+
+section.card{
+    display: flex;
+}
+
+section.card > img{
+    margin-right: 1.25rem;
+    width: 3rem;
+}
+
+section.card > article > ul{
+    list-style: none;
+}
