@@ -1,0 +1,14 @@
+@import url("style.css");
+
+body > article {
+  background-image: url("../imgs/akira.jpg");
+}
+
+body > main > article:nth-child(1) > p {
+  line-height: 1.25rem;
+}
+
+body > main > article:nth-child(2) > p {
+  margin-bottom: 0.5rem;
+  text-indent: 1rem;
+}
