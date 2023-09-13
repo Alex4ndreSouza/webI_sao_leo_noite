@@ -1,0 +1,19 @@
+@import url("style.css");
+
+body > article {
+  background-image: url("../imgs/pedidos.jpg");
+}
+
+body > main > section.card {
+  display: flex;
+}
+
+body > main > section.card > img {
+  width: 5rem;
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+ol > li{
+  list-style: url("../imgs/esfera_do_dragao.png") inside;
+}
