@@ -13,16 +13,31 @@
   </head>
   <body>
     <main class="d-flex justify-content-center align-items-center vh-100">
-      <div class="card bg-primary w-50 h-25 p-4">
+      <div class="card bg-primary w-50 h-50 p-4">
         <form>
           <div class="row">
             <div class="col">
               <label for="number_one">Primeiro número</label>
-              <input type="number" class="form-control">
+              <input type="number" class="form-control" id="number_one">
             </div>
             <div class="col">
               <label for="number_two">Segundo número</label>
-              <input type="number" class="form-control">
+              <input type="number" class="form-control" id="number_two">
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col d-flex justify-content-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-light" id="btn_sum">+</button>
+                <button type="button" class="btn btn-light" id="btn_sub">-</button>
+                <button type="button" class="btn btn-light" id="btn_mult">*</button>
+                <button type="button" class="btn btn-light" id="btn_div">/</button>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col d-flex justify-content-center">
+              <input type="text" class="form-control" id="ip_result" disabled>
             </div>
           </div>
         </form>
